@@ -1,0 +1,144 @@
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+tr {
+    display: flex;
+    justify-content: space-between;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    flex: 1;
+}
+
+th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+.titulo-index {
+    font-size: 36px;
+    color: #ff5733;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    animation: rebote 1.5s infinite alternate;
+}
+.titulo2 {
+    font-size: 24px;
+    color: #063758;
+    font-style: italic;
+    animation: desvanecer 2s ease-in-out infinite alternate;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #333;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:host{
+    background-color: aqua;
+}
+
+.contenedor-texto {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+.caja {
+    background-color: #a39c9c;
+    padding: 15px;
+    width: 45%;
+    border-radius: 5px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #333;
+    padding: 10px;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#titulo-contacto {
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+#formulario-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+#formulario-contacto input,
+#formulario-contacto textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#boton-enviar {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#boton-enviar:hover {
+    background-color: #000000;
+}
+
+#footer-contacto {
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-top: 20px;
+}
+.contacto {
+    background-image: url(imagenes/10913f62f3970abe0a0934cd6e0f78a8.jpg); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /
+}
